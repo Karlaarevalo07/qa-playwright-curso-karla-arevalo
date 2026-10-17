@@ -1,0 +1,24 @@
+﻿
+Running 8 tests using 1 worker
+
+node.exe : (node:28812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:28812) Wa... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+Login con POM exitoso
+  ✓  1 [chromium] › tests\clase06.spec.ts:10:7 › Clase 06 - Page Object Model en Sauce Demo › Login exitoso con POM (1.7s)
+Error de login capturado con POM
+  ✓  2 [chromium] › tests\clase06.spec.ts:22:7 › Clase 06 - Page Object Model en Sauce Demo › Login fallido con POM (1.2s)
+Flujo completo con POM: 2 productos en carrito
+  ✓  3 [chromium] › tests\clase06.spec.ts:34:7 › Clase 06 - Page Object Model en Sauce Demo › Flujo completo: login → agregar 2 productos → verificar carrito (1.6s)
+  ✓  4 [chromium] › tests\clase06.spec.ts:58:7 › Clase 06 - Page Object Model en Sauce Demo › Verificar que el inventario tiene 6 productos (1.3s)
+  ✓  5 [chromium] › tests\clase06.spec.ts:70:7 › Clase 06 - Page Object Model en Sauce Demo › Ordenar productos de mayor a menor precio (1.4s)
+  ✓  6 [chromium] › tests\clase06.spec.ts:96:7 › Clase 06 - Page Object Model en Sauce Demo › Reto 1 - Compra completa con CheckoutPage (1.9s)
+  ✓  7 [chromium] › tests\clase06.spec.ts:116:7 › Clase 06 - Page Object Model en Sauce Demo › Reto 2 - Logout con MenuPage (2.6s)
+  ✓  8 [chromium] › tests\clase06.spec.ts:131:7 › Clase 06 - Page Object Model en Sauce Demo › Reto 3 - removeProductByName hace desaparecer el badge (1.5s)
+
+  8 passed (15.4s)
