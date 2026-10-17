@@ -1,0 +1,24 @@
+﻿
+Running 7 tests using 1 worker
+
+node.exe : (node:12648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:12648) Wa... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests\clase08.spec.ts:31:7 › Clase 08 - Suite de inventario con hooks › El inventario muestra 6 productos (1.6s)
+Todos los 6 productos tienen precio en formato correcto
+  ✓  2 [chromium] › tests\clase08.spec.ts:36:7 › Clase 08 - Suite de inventario con hooks › Todos los productos tienen precio visible (1.5s)
+6 imágenes verificadas
+  ✓  3 [chromium] › tests\clase08.spec.ts:48:7 › Clase 08 - Suite de inventario con hooks › Todos los productos tienen imagen visible (1.5s)
+  ✓  4 [chromium] › tests\clase08.spec.ts:60:7 › Clase 08 - Suite de inventario con hooks › El menú de hamburguesa funciona (3.6s)
+  ✓  5 [chromium] › tests\clase08.spec.ts:76:7 › Clase 08 - Suite de inventario con hooks › Logout funciona correctamente (2.5s)
+Usuario estándar llegó al checkout
+  ✓  6 [chromium] › tests\clase08.spec.ts:93:7 › Clase 08 - Comportamiento por tipo de usuario › Usuario estándar puede completar el checkout (1.5s)
+Tiempo de login (glitch user): 5779ms
+  ✓  7 [chromium] › tests\clase08.spec.ts:104:7 › Clase 08 - Comportamiento por tipo de usuario › Usuario de rendimiento degrado experimenta lentitud (6.4s)
+
+  7 passed (21.3s)

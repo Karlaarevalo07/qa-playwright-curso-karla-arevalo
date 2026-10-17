@@ -1,0 +1,30 @@
+﻿
+Running 7 tests using 4 workers
+
+node.exe : (node:24008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:24008) Wa... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+6 imágenes verificadas
+Todos los 6 productos tienen precio en formato correcto
+  ✓  3 [chromium] › tests\clase08.spec.ts:31:7 › Clase 08 - Suite de inventario con hooks › El inventario muestra 6 productos (4.1s)
+  ✓  2 [chromium] › tests\clase08.spec.ts:48:7 › Clase 08 - Suite de inventario con hooks › Todos los productos tienen imagen visible (4.2s)
+  ✓  1 [chromium] › tests\clase08.spec.ts:36:7 › Clase 08 - Suite de inventario con hooks › Todos los productos tienen precio visible (4.5s)
+Usuario estándar llegó al checkout
+  ✓  6 [chromium] › tests\clase08.spec.ts:93:7 › Clase 08 - Comportamiento por tipo de usuario › Usuario estándar puede completar el checkout (2.4s)
+  ✓  4 [chromium] › tests\clase08.spec.ts:60:7 › Clase 08 - Suite de inventario con hooks › El menú de hamburguesa funciona (7.1s)
+  ✓  5 [chromium] › tests\clase08.spec.ts:76:7 › Clase 08 - Suite de inventario con hooks › Logout funciona correctamente (3.2s)
+Tiempo de login (glitch user): 6096ms
+  ✓  7 [chromium] › tests\clase08.spec.ts:104:7 › Clase 08 - Comportamiento por tipo de usuario › Usuario de rendimiento degrado experimenta lentitud (6.9s)
+
+  7 passed (13.8s)

@@ -1,0 +1,19 @@
+﻿
+Running 5 tests using 1 worker
+
+node.exe : (node:25816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:25816) Wa... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests\tarea08.spec.ts:29:7 › Reto 1 - Suite serial con página compartida › Paso 1: el inventario está cargado (19ms)
+  ✓  2 [chromium] › tests\tarea08.spec.ts:33:7 › Reto 1 - Suite serial con página compartida › Paso 2: agregar un producto (misma sesión del paso 1) (137ms)
+  ✓  3 [chromium] › tests\tarea08.spec.ts:38:7 › Reto 1 - Suite serial con página compartida › Paso 3: el carrito conserva el producto del paso 2 (133ms)
+Login del usuario glitch: 5836 ms
+  ✓  4 [chromium] › tests\tarea08.spec.ts:46:5 › Reto 2 - Usuario con lentitud artificial marcado como slow (6.4s)
+  ✓  5 [chromium] › tests\tarea08.spec.ts:60:5 › Reto 3 - Omitir en tiempo de ejecución según el estado real (1.4s)
+
+  5 passed (11.5s)
