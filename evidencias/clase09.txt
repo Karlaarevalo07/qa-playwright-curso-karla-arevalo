@@ -1,0 +1,30 @@
+﻿
+Running 9 tests using 1 worker
+
+node.exe : (node:1464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:1464) War... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+Inventario tiene 6 productos (via fixture)
+  ✓  1 [chromium] › tests\clase09.spec.ts:6:7 › Clase 09 - Fixtures y datos de prueba › Usando fixture de login: verificar inventario (2.7s)
+Carrito tiene 1 item (via fixture)
+  ✓  2 [chromium] › tests\clase09.spec.ts:14:7 › Clase 09 - Fixtures y datos de prueba › Usando fixture de carrito: verificar que hay 1 item (1.9s)
+  ✓  3 [chromium] › tests\clase09.spec.ts:21:7 › Clase 09 - Fixtures y datos de prueba › Usando fixture de loginPage: login manual en el test (1.7s)
+usuario estándar puede ingresar: acceso correcto
+  ✓  4 [chromium] › tests\clase09.spec.ts:54:13 › Clase 09 - Tests parametrizados de login › Login: usuario estándar puede ingresar (1.6s)
+usuario bloqueado no puede ingresar: error mostrado correctamente
+  ✓  5 [chromium] › tests\clase09.spec.ts:54:13 › Clase 09 - Tests parametrizados de login › Login: usuario bloqueado no puede ingresar (1.5s)
+campos vacíos muestran error: error mostrado correctamente
+  ✓  6 [chromium] › tests\clase09.spec.ts:54:13 › Clase 09 - Tests parametrizados de login › Login: campos vacíos muestran error (1.5s)
+"Sauce Labs Backpack" verificado en carrito
+  ✓  7 [chromium] › tests\clase09.spec.ts:92:13 › Clase 09 - Agregar productos al carrito (parametrizado) › Agregar "Sauce Labs Backpack" al carrito (1.8s)
+"Sauce Labs Bike Light" verificado en carrito
+  ✓  8 [chromium] › tests\clase09.spec.ts:92:13 › Clase 09 - Agregar productos al carrito (parametrizado) › Agregar "Sauce Labs Bike Light" al carrito (1.8s)
+"Sauce Labs Bolt T-Shirt" verificado en carrito
+  ✓  9 [chromium] › tests\clase09.spec.ts:92:13 › Clase 09 - Agregar productos al carrito (parametrizado) › Agregar "Sauce Labs Bolt T-Shirt" al carrito (1.8s)
+
+  9 passed (21.0s)

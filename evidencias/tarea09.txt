@@ -1,0 +1,21 @@
+﻿
+Running 5 tests using 1 worker
+
+node.exe : (node:2020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:2020) War... env being set.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-warnings ...` to show where the warning was created)
+[cronómetro] el test tardó 1393 ms
+  ✓  1 [chromium] › tests\tarea09.spec.ts:23:1 › Reto 1 - Fixture con teardown: mide cuánto tarda el test (1.9s)
+  ✓  2 [chromium] › tests\tarea09.spec.ts:66:9 › Reto 3 - viewport móvil › El inventario se ve en móvil (375x667) (1.6s)
+  ✓  3 [chromium] › tests\tarea09.spec.ts:66:9 › Reto 3 - viewport escritorio › El inventario se ve en escritorio (1280x800) (1.6s)
+(node:6596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 [chromium] › tests\tarea09.spec.ts:43:3 › Reto 2 - Fixture de alcance worker › El contador sube a 1 (7ms)
+  ✓  5 [chromium] › tests\tarea09.spec.ts:48:3 › Reto 2 - Fixture de alcance worker › El contador sigue vivo y sube a 2 (2ms)
+
+  5 passed (8.1s)
